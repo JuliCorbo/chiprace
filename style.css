@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+.header-container {
+    background-color: black;
+    color: white;
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.logoimg {
+    width: 15rem;
+    border-radius: 50%;
+
+}
+.logoimg:hover {
+    transform: rotate(360deg) scale(1.1);
+    transition: all 0.5s;
+}
+
+.inicio:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+}
+.productos:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+}
+.nosotros:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+}
+.background {
+
+    background-image: url(./img/backgroundimg.jpg)
+}
+
+
+
+.section1 {
+    display: flex;
+    width: 100%;
+}
+.section-cursos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 4rem;
+}
+
+.maps {
+    border-radius: 10%;
+    opacity: 70%
+    ;
+}
